@@ -1,0 +1,110 @@
+.chart {
+    min-height: 46px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 660px) {
+        flex-direction: column-reverse;
+        min-width: 80px;
+    }
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 30px;
+
+    @media screen and (max-width: 660px) {
+        flex-direction: column-reverse;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-weight: 700;
+    font-size: 22px;
+
+    @media screen and (max-width: 660px) {
+        align-items: center;
+        font-size: 16px;
+        gap: 5px;
+    }
+}
+
+.logo {
+    width: 40px;
+
+    @media screen and (max-width: 660px) {
+        width: 42px;
+    }
+}
+
+.progressBox {
+    width: 350px;
+    border-left: 3px solid grey;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 660px) {
+        width: auto;
+        border-left: 0;
+        border-bottom: 3px solid grey;
+        height: 280px;
+    }
+}
+
+.progress {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+
+    @media screen and (max-width: 660px) {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+.procent {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(120%, -50%);
+
+    @media screen and (max-width: 660px) {
+        width: fit-content;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -110%);
+    }
+}
+
+
+.form {
+    display: flex;
+    gap: 5px;
+
+    @media screen and (max-width: 660px) {
+        flex-direction: column;
+        gap: 7px;
+    }
+}
+
+.label {
+    display: flex;
+    font-size: 12px;
+
+    &:hover,
+    input:hover {
+        cursor: pointer;
+    }
+}
