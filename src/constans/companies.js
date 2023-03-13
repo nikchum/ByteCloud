@@ -6,7 +6,7 @@ export const companies = {
   },
   bunny: {
     name: 'bunny',
-    icon: 'https://scontent.fhrk2-1.fna.fbcdn.net/v/t39.30808-6/310213724_596094838913527_7273302277921969525_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CP87d9vckJsAX94T-Zn&_nc_ht=scontent.fhrk2-1.fna&oh=00_AfCbUi0pjCqymv5LGXeY5TyeCuBmuk0gHPh6zDkFDmZBvQ&oe=640A94DA',
+    icon: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1fff394b86d3cd58b2e72b3d467cf332/bunny-net.png',
     color: 'orange',
     options: [
       { name: 'disk', title: 'HDD', value: 'hdd', defaultChecked: true },
